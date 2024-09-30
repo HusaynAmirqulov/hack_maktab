@@ -1,0 +1,606 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" ng-app="dnevnik" ng-jq>
+<head>
+    <meta name="google" value="notranslate"/>
+    <meta charset="utf-8"/>
+    <title>&#x41B;&#x435;&#x43D;&#x442;&#x430; &#x43D;&#x43E;&#x432;&#x43E;&#x441;&#x442;&#x435;&#x439;</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Удобная и безопасная среда общения школьников, учителей и родителей. Домашние задания, расписание, оценки - всё в одном месте." />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    
+    <script>
+    function sendMetrika(type, action) {
+        if (document.readyState === 'complete' && window.dnevnik && window.dnevnik.analytics && window.dnevnik.analytics.yandex && window.dnevnik.analytics.yandex.params) {
+                var params = '{"SmartAppBanner": {"1000016375113": { "student": {"'+type+'": {"'+action+'":{}}}}}}';
+                window.dnevnik.analytics.yandex.params(JSON.parse(params));
+            }
+        }        
+    </script>
+        <link rel="manifest" href="https://emaktab.uz/manifest"/>
+        <script>
+            document.addEventListener('smartbanner.view', function() { sendMetrika("smartapp_android_old", "view"); });
+            document.addEventListener('smartbanner.clickView', function() { sendMetrika("smartapp_android_old", "clickApp"); });
+            document.addEventListener('smartbanner.clickInstall', function() { sendMetrika("smartapp_android_old", "clickGooglePlay"); });
+        </script>
+
+    
+    <link rel="icon" href="https://static.emaktab.uz/img/icons/favicon_Uz.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://static.emaktab.uz/img/icons/favicon_Uz.ico" type="image/x-icon"/>
+    
+
+        <link rel="stylesheet" href="https://static.emaktab.uz/styles/main/common.css?v=143157b6" media="all" type="text/css"/>
+        <link rel="stylesheet" href="https://static.emaktab.uz/blocks/blocks.css?v=3c7e6fdf" media="all" type="text/css" />
+        <link rel="stylesheet" href="https://static.emaktab.uz/css/adaptive.css?v=068f655e" media="all" type="text/css" /> 
+    <link rel="stylesheet" href="https://static.emaktab.uz/client/notifications.css?v=1f469960" type="text/css" />
+
+    
+<script type="text/javascript">var dnevnik = {"urls":{"domain":"emaktab.uz","taskStateUrl":"https://emaktab.uz/TaskStateHandler","moderate":"https://emaktab.uz/v2/soc/moderation/abuse","whiteList":["2gis.ru","adfox.ru","aliexpress.com","apple.com","avito.ru","booking.com","csdnevnik.ru","dnevnik.ru","dnevnik.ru","facebook.com","fotostrana.ru","foxford.ru","gismeteo.ru","globallab.org","google.com","google.ru","gosuslugi.ru","hh.ru","instagram.com","instagram.com","kinopoisk.ru","lego.com","lenta.ru","letovo.ru","livejournal.com","magnit.ru","magnit-info.ru","magnitznaniy.ru","mail.ru","microsoft.com","mosreg.ru","mosregtest.ru","office.com","office365.com","ok.ru","onenote.com","pikabu.ru","rambler.ru","rbc.ru","research.net","ria.ru","sberbank.ru","sharepoint.com","surveymonkey.com","surveymonkey.ru","twitch.tv","twitter.com","vk.com","wikipedia.org","yadi.sk","yaklass.ru","yandex.ru","youtu.be","youtube.com","kundalik.com","utube.uz","imumk.ru","https://uz.mfactory.online/","kundalik.analyticsapp.uz","kundalik.ozlashtah.uz","uzum.go.link","go.link","redirect.appmetrica.yandex.com","https://emaktab.tech/","https://www.anorbank.uz","smart.emaktab.uz","https://emaktab.tech","https://smart.emaktab.uz","emaktab.uz","emaktab.tech","https://t.me/%20S63ZvFPEQhI4YTk6","https://t.me/%20S63ZvFPEQhI4YTk6"],"userCounters":"https://emaktab.uz/counters","emailSettings":"https://emaktab.uz/v2/user/settings?view=email","smilesSpriteUrl":"https://static.emaktab.uz/images/sprites/emojione.sprites.svg","tinyMceBaseUrl":"https://static.emaktab.uz/assets/scripts/vendors/tinymce","gaAutoLinkUrls":null,"adblockDummyUrl":""},"settings":{"googleAnalytics":{"defaultId":"","appsId":"","adId":"","contactId":"","eventsId":"","groupsId":"","loginId":"","messengerId":"","networksId":"","childrenId":"","peopleId":"","schoolsId":"","wikiId":"","mainId":"","appSubscriptionId":"","limitedCounterId":"UA-106329441-1","limitedCounterSampleRate":1},"yandexMetrikaIds":["52725535"],"yandexMetrikaСlickmapEnabled":true,"enableAdFoxZeroPixel":true,"yandexMetrikaId":"52725535","environmentPrefix":"Uz","yandexMetrikaWebvisorEnabled":false},"fileUploadSettings":{"stateUrl":"https://content.emaktab.uz/gettaskstatus","resultUrl":"https://content.emaktab.uz/getresult","deleteFileUrl":"https://content.emaktab.uz/delete","deleteFolderUrl":"https://content.emaktab.uz/deletefolder","defaultFileSizeLimit":"2147483648"},"user":{"preferableLanguage":"ru-RU","suitableCultures":["ru-RU","uz-Latn-UZ"],"id":"1000016375113","sex":"Male","age":8,"emailHash":"","group":73,"role":"EduStudent","commonRole":"student","schools":[{"id":"1000005979869","regionName":"Кашкадарьинская область"}],"children":[],"isMethodist":false,"experimentPRTopic":"None"},"auth":{"isAuthenticated":true,"updateInterval":600000,"loginUrl":"https://login.emaktab.uz/auth","masterLoginUrl":null},"visitParams":{"__RedesignAbGroup2":"groupA"},"localizationSchoolType":"","contextRegionUrl":""};</script>
+
+            <script type="text/javascript" src="https://static.emaktab.uz/assets/scripts/modules/redesign.min.4001a175.js?v=4001a175"></script>
+    <script type="text/javascript" src="https://static.emaktab.uz/assets/scripts/vendors/requirejs/require-2.1.6.js?v=ef8e5d03"></script>
+    <script type="text/javascript">
+        require.config({
+            baseUrl: "https://static.emaktab.uz/assets/scripts/modules",
+            urlArgs: "v=9ee4c099",
+        });
+    </script>
+            <script type="text/javascript" src="https://static.emaktab.uz/assets/scripts/modules/main-redesign.min.a8e15e2a.js?v=a8e15e2a"></script>
+    <script type="text/javascript" src="https://static.emaktab.uz/blocks/blocks.js?v=09c9b232"></script>
+    <script type="text/javascript" src="https://static.emaktab.uz/javascripts/local/ru.js?v=0320e479"></script>
+    <script src="https://static.emaktab.uz/client/react.vendor.bundle.js?v=37d8f898" type="text/javascript"></script>
+
+    <script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+    <script src="https://static.emaktab.uz/client/localization/uz.ru-RU.js?v=d4cad30d" type="text/javascript"></script>
+
+    
+    
+    <script type="text/javascript">
+        require(['layoutcontrols/menu'],
+            function (menu) {
+                var model = {
+                    newMessages: "Новых сообщений",
+                    noMessages: "Нет новых сообщений",
+                    newFriendRequests: "Новых друзей",
+                    noFriendRequests: "Нет новых друзей",
+                    newGroups: "Новых приглашений",
+                    noGroups: "Нет новых приглашений",
+                    Account: "Личный счёт",
+                    newEvents: "Новых событий",
+                    noEvents: "Нет новых событий",
+                };
+                menu(model);
+            });
+    </script>
+    <script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+    <style>
+        @media screen and (max-width: 620px) {
+            .header_adaptive_wrapper {
+                overflow: hidden;
+                width: 100%;
+                height: 70px;
+                visibility: hidden;
+                
+            }
+        }
+    </style>
+</head>
+<body class="page-body">
+<!-- <div class="1ed41eaa88084c7d80f0c5fa1a207186 asyncBackgroundBanner"><div style="display:none;">&lt;div class=&quot;bannerBackground&quot;&gt;&lt;!--В &lt;head&gt; сайта один раз добавьте код загрузчика--&gt; -->
+<!-- &lt;script&gt;window.yaContextCb = window.yaContextCb || []&lt;/script&gt;
+&lt;script src=&quot;https://yandex.ru/ads/system/context.js&quot; async&gt;&lt;/script&gt;
+&lt;!--AdFox START--&gt;
+&lt;!--Dnevnik.ru--&gt;
+&lt;!--Площадка: Kundalik.com / main / BackGround--&gt;
+&lt;!--Категория: &lt;не задана&gt;--&gt;
+&lt;!--Тип баннера: BackGround (970_200)--&gt;
+&lt;div id=&quot;adfox_168906318644089780&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    window.yaContextCb.push(()=&gt;{
+        Ya.adfoxCode.create({
+            ownerId: 222314,
+            containerId: &#39;adfox_168906318644089780&#39;,
+            params: {
+                p1: &#39;cnfph&#39;,
+                p2: &#39;ewte&#39;,
+            puid1: &#39;8&#39;,
+    puid2: &#39;M&#39;,
+    puid3: &#39;STUDENT&#39;,
+    puid4: &#39;119&#39;,
+    puid5: &#39;N&#39;,
+    puid6: &#39;N&#39;,
+    puid7: &#39;70:62&#39;,
+    puid8: &#39;N&#39;,
+    puid9: &#39;ComprehensiveSchool&#39;,
+    puid10: &#39;N&#39;,
+    puid11: &#39;A&#39;,
+    puid12: &#39;N&#39;,
+    puid13: &#39;N&#39;,
+    puid14: &#39;N&#39;,
+    puid15: &#39;N&#39;,
+    puid16: &#39;ads_lottery_3_4_koupons:ads_yandex_noProAccess:ads_advices_for_teachers_cg&#160;&#39;,
+    puid17: &#39;&#39;,
+    puid18: &#39;&#39;,
+    puid19: &#39;73G&#39;,
+    puid20: &#39;2K&#39;,
+    puid21: &#39;N&#39;,
+    puid22: &#39;ru-RU&#39;,
+    puid23: &#39;1000016375113&#39;,
+    puid24: &#39;N&#39;,
+    puid25: &#39;N&#39;
+            }
+        })
+    })
+&lt;/script&gt;&lt;/div&gt;</div></div><script>$(document).ready(function () {let container=$(".1ed41eaa88084c7d80f0c5fa1a207186");if(container.css("display")!=="none"){container.html($(".1ed41eaa88084c7d80f0c5fa1a207186 > div").text());} });</script><div class="0e1418b37d51479d9e3d3e8ff0438662 asyncRichMediaBanner"><div style="display:none;">&lt;script src=&quot;https://app.ozlashtah.uz/js/notify-uz-ru.js&quot;&gt;&lt;/script&gt;</div></div><script>$(document).ready(function () {let container=$(".0e1418b37d51479d9e3d3e8ff0438662");if(container.css("display")!=="none"){container.html($(".0e1418b37d51479d9e3d3e8ff0438662 > div").text());} });</script> -->
+
+    <div class="header_adaptive_wrapper">
+        
+    <div class="page-header ">
+        <div class="page-header__panel-wrapper">
+            <div class="page-header__panel">
+                <div class="page-header__panel-container">
+                    <a href="https://emaktab.uz/userfeed/" title="&#x41D;&#x430; &#x433;&#x43B;&#x430;&#x432;&#x43D;&#x443;&#x44E; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x443; eMaktab" class="header-logotype header-logotype_uz" ></a>
+                    
+<div class="user-counters">
+
+
+<a class="button-with-counter button-with-counter_notification    trackable ya-metrika-trackable" data-category="&#x428;&#x430;&#x43F;&#x43A;&#x430;" data-action="&#x418;&#x43D;&#x432;&#x430;&#x439;&#x442;&#x44B;" data-target="invites">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22">
+        <path fill="#AAB6C2" fill-rule="evenodd" d="M4.429 7.861v.968a7.545 7.545 0 0 1-1.44 4.428l-.907 1.249.097.044c.137.06.293.124.472.189l.185.065c1.364.467 3.228.752 5.664.752 2.436 0 4.3-.285 5.664-.752.257-.088.475-.174.657-.254l.096-.044-.905-1.249a7.545 7.545 0 0 1-1.434-4.11l-.007-.318v-.968c0-2.207-1.82-4-4.071-4-2.251 0-4.071 1.793-4.071 4zM8.5 1.75c-.42 0-.765.29-.841.673a5.685 5.685 0 0 1 1.683 0A.849.849 0 0 0 8.5 1.75zm0 18.076c-1.751 0-3.2-1.3-3.404-2.98-1.052-.144-1.964-.355-2.746-.623-.962-.33-1.559-.678-1.853-.945a.75.75 0 0 1-.104-.996l1.381-1.905A6.045 6.045 0 0 0 2.93 8.829v-.968c0-2.207 1.316-4.109 3.214-4.985v-.293A2.343 2.343 0 0 1 8.5.25c1.247 0 2.269.956 2.352 2.173l.005.16v.293c1.898.876 3.214 2.778 3.214 4.985v.968c0 1.272.404 2.512 1.155 3.548l1.381 1.905a.75.75 0 0 1-.104.996c-.294.267-.89.616-1.853.945-.782.268-1.694.48-2.746.622-.204 1.681-1.653 2.981-3.404 2.981zm0-1.5c.866 0 1.598-.56 1.842-1.327-.58.037-1.193.057-1.842.057-.65 0-1.263-.02-1.842-.057A1.926 1.926 0 0 0 8.5 18.326z" />
+    </svg> -->
+    <div class="button-with-counter__counter"></div>
+</a>    <div class="ntf-notifications-container">
+          <div id="ntf-notifications-root"></div>
+          <div class="ntf-notifications-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 18"><g><g><path fill="#aab6c2" d="M11.71 4.522c-.5-1.284-1.198-2.212-1.96-2.588v3.014a8.172 8.172 0 0 0 1.96-.426zm-5.424.009a8.186 8.186 0 0 0 1.964.42V1.934c-.764.377-1.463 1.308-1.964 2.597zm.01 8.963c.5 1.276 1.195 2.198 1.954 2.572v-2.989a8.19 8.19 0 0 0-1.954.417zm5.405.009a8.176 8.176 0 0 0-1.951-.423v2.986c.757-.374 1.451-1.292 1.95-2.563zM5.848 5.968a13.217 13.217 0 0 0-.314 2.282H8.25V6.456a9.663 9.663 0 0 1-2.402-.488zm6.302-.01a9.65 9.65 0 0 1-2.4.496V8.25h2.716a13.212 13.212 0 0 0-.316-2.291zm-.007 6.11c.168-.715.28-1.494.323-2.318H9.75v1.824a9.652 9.652 0 0 1 2.393.494zm-6.289-.01a9.665 9.665 0 0 1 2.396-.486V9.75H5.534c.043.82.154 1.597.32 2.309zM17.75 9A8.75 8.75 0 1 1 .25 9a8.75 8.75 0 1 1 17.5 0zm-5.298-6.377c.225.376.429.79.609 1.234.208-.14.394-.291.553-.45a7.263 7.263 0 0 0-1.162-.784zm0 12.754c.408-.221.791-.48 1.147-.772a3.867 3.867 0 0 0-.547-.44 8.967 8.967 0 0 1-.6 1.212zm1.082-2.677c.423.247.801.529 1.119.84a7.216 7.216 0 0 0 1.559-3.79h-2.244a14.54 14.54 0 0 1-.434 2.95zm1.132-8.224c-.32.314-.7.599-1.126.849.232.905.38 1.891.428 2.925h2.244a7.215 7.215 0 0 0-1.546-3.774zM5.548 2.623c-.42.228-.814.495-1.178.797.163.16.352.31.563.452.182-.45.387-.868.615-1.249zm0 12.754a8.982 8.982 0 0 1-.606-1.226 3.914 3.914 0 0 0-.556.442c.36.297.749.56 1.162.784zM4.456 5.339a5.74 5.74 0 0 1-1.134-.848A7.215 7.215 0 0 0 1.788 8.25h2.244c.048-1.028.194-2.01.424-2.911zm-1.121 8.185a5.76 5.76 0 0 1 1.127-.838 14.548 14.548 0 0 1-.43-2.936H1.788a7.215 7.215 0 0 0 1.547 3.774z" /></g></g></svg>
+          </div>
+    </div>
+  
+</div>
+
+<script>
+    require(['layoutcontrols/userCounter'], function (userCounter) {
+        var messageModel = {
+            counterSelector: '.button-with-counter_message',
+            counterContentClass: 'button-with-counter__counter',
+            link: 'https://emaktab.uz/soc/messenger/',
+            spamLink: 'https://emaktab.uz/soc/messenger/?view=spam'
+        };
+
+       var notificationModel = {
+            counterSelector: '.button-with-counter_notification',
+            counterContentClass: 'button-with-counter__counter',
+            link: 'https://emaktab.uz/invites'
+        };
+        
+        var kundalikPayModel = {
+            counterSelector: '.button-with-counter_kundalikpay',
+            counterContentClass: 'button-with-counter__counter',
+            link: 'https://emaktab.uz/kundalikpay'
+        };
+        
+        userCounter(messageModel);
+        userCounter(notificationModel);
+        userCounter(kundalikPayModel);
+    });
+</script>
+<script>
+  window.notificationsAppSettings = {
+     apiUrl: "https://notifications.emaktab.uz/api",
+     rootElementId: "ntf-notifications-root"
+  }
+</script>
+<script defer src="https://static.emaktab.uz/client/notifications.js?v=467cadb7"></script>
+<script defer src="https://static.emaktab.uz/client/chat_notifications.js?v=42c2fff1"></script>
+<link rel="stylesheet" href="https://static.emaktab.uz/client/chat_notifications.css?v=029e6db5" media="all" type="text/css"></link>
+
+                </div>
+                <div class="page-header__panel-container_items page-header__panel-container_items_uz">
+                        <div class="page-header__panel-container page-header__panel-container_header-localization-select">
+                            
+<div class="header-localization-select header-localization-select_top-14 ">
+    <div class="header-localization-select__info">
+        <div class="header-localization-select__info_row header-localization-select__info_row-content">&#x420;&#x443;&#x441;</div>
+        <div class="header-localization-select__info_row header-localization-select__tumbler"></div>
+    </div>
+    
+    
+
+<div class="dropdown-container dropdown-container_font-weight-bold dropdown-container_left-position-0 dropdown-container_no-specific-last-child ">
+
+<a href="https://emaktab.uz/api/localization/change?newCulture=ru-RU&amp;currentUrl=https%3a%2f%2femaktab.uz%2fuserfeed" title="&#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;" class="link link_dropdown-container-link link_dropdown-container-link_selected link_ " >
+    &#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;
+    
+</a>
+<a href="https://emaktab.uz/api/localization/change?newCulture=uz-Latn-UZ&amp;currentUrl=https%3a%2f%2femaktab.uz%2fuserfeed" title="O&#x27;zbek" class="link link_dropdown-container-link link_ link_ " >
+    O&#x27;zbek
+    
+</a></div><script>require(['DropdownContainer/DropdownContainer'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22tumblerClass\x22\x3a\x22header-localization-select\x22,\x22activationClasses\x22\x3a\x5b\x22header-localization-select__info\x22,\x22dropdown-container\x22\x5d\x7d')); } });</script>
+</div>
+                        </div>
+                    
+                    <div class="page-header__panel-container page-header__panel-container_profile">
+                        
+
+
+
+<div class="user-profile-box" data-test-id="user-profile-info">
+    <div class="user-profile-box__info">
+        <div class="user-profile-box__info_row user-profile-box__avatar">
+            <img src="https://static.emaktab.uz/images/avatars/user/a.s.jpg" />
+        </div>
+        <div class="user-profile-box__info_row user-profile-box__info_row-content">
+            <!-- <p class="user-profile-box__info_row-content user-profile-box__initials">&#x410;&#x43C;&#x438;&#x440;&#x43A;&#x443;&#x43B;&#x43E;&#x432; &#x425;.&#x410;.</p> -->
+            <!-- <p class="user-profile-box__info_row-content user-profile-box__category">&#x423;&#x447;&#x435;&#x43D;&#x438;&#x43A;</p> -->
+        </div>
+        <div class="user-profile-box__info_row user-profile-box__tumbler"></div>
+    </div>
+
+    
+
+<div class="dropdown-container">
+
+<a href="https://emaktab.uz/billing/paidAccess/paymentPage" title="&#x41F;&#x43E;&#x434;&#x43F;&#x438;&#x441;&#x43A;&#x438;" class="link link_dropdown-container-link link_ link_ " >
+    &#x41F;&#x43E;&#x434;&#x43F;&#x438;&#x441;&#x43A;&#x438;
+    
+</a>
+<a href="https://emaktab.uz/v2/user/settings?user=1000016375113" title="&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438;" class="link link_dropdown-container-link link_ link_ " >
+    &#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438;
+    
+</a>
+<a href="https://login.emaktab.uz/logout" title="&#x412;&#x44B;&#x439;&#x442;&#x438; &#x438;&#x437; eMaktab" class="link link_dropdown-container-link link_ link_box-sizing-content-box " Id=profile_logout>
+    &#x412;&#x44B;&#x439;&#x442;&#x438; &#x438;&#x437; eMaktab
+    
+</a></div><script>require(['DropdownContainer/DropdownContainer'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22tumblerClass\x22\x3a\x22user-profile-box\x22,\x22activationClasses\x22\x3a\x5b\x22user-profile-box__info\x22,\x22dropdown-container\x22\x5d\x7d')); } });</script>
+    <form name="profileLogout" action="https://login.emaktab.uz/logout" method="post">
+    </form>
+</div>
+<script>
+    $('#profile_logout').click(function () {
+        document.profileLogout.submit();
+        return false;
+    });
+</script>
+
+
+
+
+
+
+                    </div>
+                    <div class="page-header__panel-container page-header__panel-container_end">
+                        
+
+<div class="header-links">
+    <a class="header-links__link" href="https://help.emaktab.uz" target="_blank">&#x41F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;</a>
+    <form name="logout" action="https://login.emaktab.uz/logout" method="post">
+        <a class="header-links__link" onClick="document.logout.submit();" href="#">&#x412;&#x44B;&#x445;&#x43E;&#x434;</a>
+    </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+            <ul class="header-menu"><li class="header-menu__item header-menu__item_active"><a class="header-menu__link" href="https://emaktab.uz/userfeed" target="_self" title="" data-test-id="Образование">Образование </a><ul class="header-submenu header-submenu_active"><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/v2/school"  title="" data-test-id="Моя школа">Моя школа </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/v2/class"  title="" data-test-id="Мой класс">Мой класс </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://emaktab.uz/marks"  title="" data-test-id="Дневник">Дневник </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/v2/schedules/"  title="" data-test-id="Расписание">Расписание </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/v2/homework"  title="" data-test-id="Домашние задания">Домашние задания </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://emaktab.uz/chat?chatsource=headerstudent" target="_blank" title="" data-test-id="Чаты"><img src="https://static.emaktab.uz/images/chat/chat.svg" class="header-submenu__link-icon"/>Чаты </a></li><ul class="header-submenu__item header-submenu__more-item"><div class="header-submenu__more-item-name">Ещё</div></ul></ul></li><li class="header-menu__item"><a class="header-menu__link" href="https://emaktab.uz/v2/user/user"  title="" data-test-id="Профиль">Профиль </a><ul class="header-submenu"><li class="header-submenu__item"><a class="header-submenu__link" href="https://emaktab.uz/v2/user/user?view=files"  title="" data-test-id="Файлы">Файлы </a></li><ul class="header-submenu__item header-submenu__more-item"><div class="header-submenu__more-item-name">Ещё</div></ul></ul></li><li class="header-menu__item"><a class="header-menu__link" href="https://emaktab.uz/v2/soc/networks"  title="" data-test-id="Общение">Общение </a><ul class="header-submenu"><li class="header-submenu__item"><a class="header-submenu__link" href="https://emaktab.uz/v2/soc/networks"  title="" data-test-id="Сети">Сети </a></li><ul class="header-submenu__item header-submenu__more-item"><div class="header-submenu__more-item-name">Ещё</div></ul></ul></li><li class="header-menu__item"><a class="header-menu__link" href="https://emaktab.uz:443/v2/soc/apps/?utm_source=dnevnik&utm_medium=mainnav&utm_campaign=button"  title="" data-test-id="Приложения">Приложения </a></li><li class="header-menu__item header-menu__item_ext"><div class="header-menu__banner-container"><div class="ed4544d32dca4bbe919b422a3ce408ec asyncMenuButtonBanner"><div style="display:none;">&lt;!--В &lt;head&gt; сайта один раз добавьте код загрузчика--&gt;
+&lt;script&gt;window.yaContextCb = window.yaContextCb || []&lt;/script&gt;
+&lt;script src=&quot;https://yandex.ru/ads/system/context.js&quot; async&gt;&lt;/script&gt;
+&lt;!--AdFox START--&gt;
+&lt;!--Dnevnik.ru--&gt;
+&lt;!--Площадка: Kundalik.com / main / Кнопка меню--&gt;
+&lt;!--Категория: &lt;не задана&gt;--&gt;
+&lt;!--Тип баннера: Кнопка меню_2--&gt;
+&lt;div id=&quot;adfox_168906368678147218&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    window.yaContextCb.push(()=&gt;{
+        Ya.adfoxCode.create({
+            ownerId: 222314,
+            containerId: &#39;adfox_168906368678147218&#39;,
+            params: {
+                p1: &#39;cnfpj&#39;,
+                p2: &#39;ggwt&#39;,
+                 puid1: &#39;8&#39;,
+    puid2: &#39;M&#39;,
+    puid3: &#39;STUDENT&#39;,
+    puid4: &#39;119&#39;,
+    puid5: &#39;N&#39;,
+    puid6: &#39;N&#39;,
+    puid7: &#39;70:62&#39;,
+    puid8: &#39;N&#39;,
+    puid9: &#39;ComprehensiveSchool&#39;,
+    puid10: &#39;N&#39;,
+    puid11: &#39;A&#39;,
+    puid12: &#39;N&#39;,
+    puid13: &#39;N&#39;,
+    puid14: &#39;N&#39;,
+    puid15: &#39;N&#39;,
+    puid16: &#39;ads_lottery_3_4_koupons:ads_yandex_noProAccess:ads_advices_for_teachers_cg&#160;&#39;,
+    puid17: &#39;69G&#39;,
+    puid18: &#39;False&#39;,
+    puid19: &#39;73G&#39;,
+    puid20: &#39;2K&#39;,
+    puid21: &#39;N&#39;,
+    puid22: &#39;ru-RU&#39;,
+    puid23: &#39;1000016375113&#39;,
+    puid24: &#39;N&#39;,
+    puid25: &#39;N&#39;
+            }
+        })
+    })
+&lt;/script&gt;</div></div><script>$(document).ready(function () {let container=$(".ed4544d32dca4bbe919b422a3ce408ec");if(container.css("display")!=="none"){container.html($(".ed4544d32dca4bbe919b422a3ce408ec > div").text());} });</script></div></li></ul><script type='text/javascript'>require(['analytics/menuYaMetrika']);</script>
+        </div>
+    </div>
+    <script type="text/javascript">
+        require(['layoutcontrols/menu', 'analytics/urlTracker', 'ab/yandexMetrikaTracker'], function (menu, urlTracker, yandexMetrikaTracker) {
+
+             var model = {
+                 newMessages: "Новых сообщений",
+                 noMessages: "Нет новых сообщений",
+                 newFriendRequests: "Новых друзей",
+                 noFriendRequests: "Нет новых друзей",
+                 newGroups: "Новых приглашений",
+                 noGroups: "Нет новых приглашений",
+                 Account: "Личный счёт",
+                 newEvents: "Новых событий",
+                 noEvents: "Нет новых событий",
+             };
+
+             menu(model);
+
+             var urlTrackerModel = {
+                 elementSelector: 'li#AppCenter>a',
+                 urlPrefix: '/virtual/center',
+                 trackingConditions: 'click'
+             };
+             urlTracker(urlTrackerModel);
+
+             yandexMetrikaTracker({ action: 'reachGoal' });
+        });
+
+        require(['common/adblockDummyInsert'], function (adblockDummyInsert) {
+            adblockDummyInsert();
+        });
+    </script>
+
+    </div>
+    
+
+
+<script>
+</script>
+    
+
+<style>
+    @media screen and (min-width: 620px) {
+        .asyncTop970x200Banner {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 620px) {
+        .asyncBackgroundBanner {
+            display: none;
+        }
+
+        .asyncTop970x200Banner {
+            height: auto;
+            width: auto;
+        }
+
+        .banner970 {
+            height: auto;
+            width: auto;
+        }
+    }
+</style>
+
+<!-- <link rel="stylesheet" href="https://static.emaktab.uz/client/user_start_page.css?v=1b3648ba" type="text/css" /> -->
+<div id="survey-form"></div>
+<div class="hack" style="width: 960px; margin: 0 auto;">
+    <h3 class="hack-title">The Emaktab Hacked by @madrid_fans_uzb</h3>
+    <h1 class="teacherga-tilakalar">Assalomu alaykum techer sizni ustozlar bayrami bilan tabriklayman!</h1>
+    <div class="sher">
+        <ul class="sher-item">
+            <li class="sher-list">Sizgadir yurakda asragan so‘zim,</li>
+            <li class="sher-list">Тo mangu ta’zimda turaman o‘zim.</li>
+            <li class="sher-list">Dilimning tubida yangragan sozim —</li>
+            <li class="sher-list">Ezgulik yo‘lida tolmang, Ustozim!</li>
+            <br>
+            <li class="sher-list">G‘am ko‘rmay bu dunyo turguncha turing,</li>
+            <li class="sher-list">Ming yillik mehnatlar huzurin ko‘ring,</li>
+            <li class="sher-list">Shogirdlar baxtidan shod, masrur yuring,</li>
+            <li class="sher-list">Ezgulik yo‘lida tolmang, Ustozim!</li>
+            <br>
+            <li class="sher-list">Hayot yo‘llarimda dildosh, deb bildim,</li>
+            <li class="sher-list">Yo‘limni yoritgan quyosh, deb bildim,</li>
+            <li class="sher-list">Тole yo‘llarida yo‘ldosh, deb bildim,</li>
+            <li class="sher-list">Ezgulik yo‘lida tolmang, Ustozim!</li>
+        </ul>
+        <h2 class="comment">Techer happy techer's day your student @madrid_fans_uzb</h2>
+    </div>
+</div>
+<div id="push-notifications"></div>
+<!-- <div id="user-start-page"></div> -->
+ 
+ <!-- G‘am ko‘rmay bu dunyo turguncha turing,
+Ming yillik mehnatlar huzurin ko‘ring,
+Shogirdlar baxtidan shod, masrur yuring,
+Ezgulik yo‘lida tolmang, Ustozim!
+
+Hayot yo‘llarimda dildosh, deb bildim,
+Yo‘limni yoritgan quyosh, deb bildim,
+Тole yo‘llarida yo‘ldosh, deb bildim,
+Ezgulik yo‘lida tolmang, Ustozim! -->
+
+<script>
+window.__SURVEY_FORM_INITIAL_STATE__ = {"surveyForm":null,"surveyFormAnswerUrl":"https://emaktab.uz/api/surveyFormAnswer","staticUrl":"https://static.emaktab.uz/images/survey_form"};    window.__MOM_SAID_YES__INITIAL__STATE__ = {"absenceReasons":[{"value":0,"label":"По семейным обстоятельствам","messageLabel":"по семейным обстоятельствам"},{"value":1,"label":"По причине болезни","messageLabel":"по причине болезни"},{"value":2,"label":"По состоянию здоровья","messageLabel":"по состоянию здоровья"},{"value":3,"label":"В связи с посещением врача","messageLabel":"в связи с посещением врача"},{"value":4,"label":"В связи с отпуском","messageLabel":"в связи с отпуском"},{"value":5,"label":"Диспансеризация в лечебное учреждение","messageLabel":"в связи с диспансеризацией в лечебное учреждение"},{"value":6,"label":"По причине плохого самочувствия","messageLabel":"по причине плохого самочувствия"},{"value":7,"label":"По причине переезда в другой город","messageLabel":"по в связи с переездом в другой город"},{"value":8,"label":"В связи с морозами, холодами","messageLabel":"в связи с морозами, холодами"},{"value":9,"label":"Посещение стоматолога","messageLabel":"в связи с посещением стоматолога"},{"value":10,"label":"На время санаторного лечения","messageLabel":"на время санаторного лечения"},{"value":11,"label":"Другое","messageLabel":""}],"currentStudyYearFinishDate":"2025-07-31T00:00:00","isMsyPopupEnabled":false};
+    window.__USER__START__PAGE__INITIAL__STATE__ = {"userSchedule":{"apiUrl":"https://emaktab.uz/api/userfeed","children":[{"schoolId":"1000005979869","groupId":"2232176621299702379","personId":"1000016476677","schedule":{"days":[{"date":"1727654400","utcOffset":300,"hasImportantWork":false,"dayHomeworksProgress":{"totalLessonsWithHomeworksCount":5,"completedLessonsWithHomeworksCount":5},"lessons":[{"id":"2260088136287680780","number":1,"place":null,"startTime":"1727665200","endTime":"1727667900","hours":{"startHour":"8","startMinute":"00","endHour":"8","endMinute":"45"},"isCanceled":false,"theme":"Контрольная работа №1","meeting":null,"smartWorkInfo":null,"subject":{"id":"1866041989439435967","name":"Математика","knowledgeArea":"Mathematics"},"importantWorks":[],"homework":{"text":"Тема 18, №8-9","isCompleted":true,"workIsAttachRequired":true,"attachments":[],"userAttachments":[],"lessonId":null},"hasAttachment":false,"workMarks":[{"workId":"2260464667480587663","marks":[{"id":"2270107560549812734","value":"5","mood":"Good"}]}],"isEmpty":false,"comment":null},{"id":"2260088136287680805","number":2,"place":null,"startTime":"1727668200","endTime":"1727670900","hours":{"startHour":"8","startMinute":"50","endHour":"9","endMinute":"35"},"isCanceled":false,"theme":"Текст. Опорные слова","meeting":null,"smartWorkInfo":null,"subject":{"id":"1863486741596352771","name":"Русский язык","knowledgeArea":"Philology"},"importantWorks":[],"homework":{"text":"стр. 36 упр. 4","isCompleted":true,"workIsAttachRequired":true,"attachments":[],"userAttachments":[],"lessonId":null},"hasAttachment":false,"workMarks":[{"workId":"2260541465790806330","marks":[{"id":"2270107891262296136","value":"5","mood":"Good"}]}],"isEmpty":false,"comment":null},{"id":"2260088136287680813","number":3,"place":null,"startTime":"1727671200","endTime":"1727673900","hours":{"startHour":"9","startMinute":"40","endHour":"10","endMinute":"25"},"isCanceled":false,"theme":"Transportation","meeting":null,"smartWorkInfo":null,"subject":{"id":"1863511789845623059","name":"Английский язык","knowledgeArea":"Philology"},"importantWorks":[],"homework":{"text":"revision","isCompleted":true,"workIsAttachRequired":true,"attachments":[],"userAttachments":[],"lessonId":null},"hasAttachment":false,"workMarks":[],"isEmpty":false,"comment":null},{"id":"2260088136287680772","number":4,"place":null,"startTime":"1727674500","endTime":"1727677200","hours":{"startHour":"10","startMinute":"35","endHour":"11","endMinute":"20"},"isCanceled":false,"theme":"Учителя и ученики","meeting":null,"smartWorkInfo":null,"subject":{"id":"1863500442542027019","name":"Воспитание","knowledgeArea":"SocialStudies"},"importantWorks":[],"homework":{"text":"повторения","isCompleted":true,"workIsAttachRequired":true,"attachments":[],"userAttachments":[],"lessonId":null},"hasAttachment":false,"workMarks":[],"isEmpty":false,"comment":null},{"id":"2260088136287680848","number":5,"place":null,"startTime":"1727677500","endTime":"1727680200","hours":{"startHour":"11","startMinute":"25","endHour":"12","endMinute":"10"},"isCanceled":false,"theme":"Этот уникальный прибор - глаз","meeting":null,"smartWorkInfo":null,"subject":{"id":"1866042225662637249","name":"Science(Естествозн.)","knowledgeArea":"NaturalScience"},"importantWorks":[],"homework":{"text":"стр. 12 – 14","isCompleted":true,"workIsAttachRequired":true,"attachments":[],"userAttachments":[],"lessonId":null},"hasAttachment":false,"workMarks":[{"workId":"2260541465790806321","marks":[{"id":"2270108101715694564","value":"5","mood":"Good"}]}],"isEmpty":false,"comment":null}]}],"chatStub":{"jid":"chat_students_2232176621299702379@muclight.xmpp.emaktab.uz","staticChatUrl":null}}}],"currentChild":{"hasSchedule":true,"schoolId":"1000005979869","groupId":"2232176621299702379","personId":"1000016476677","schoolType":"Regular"},"currentDate":"1727654400"},"userMarks":{"children":[{"schoolId":"1000005979869","groupId":"2232176621299702379","personId":"1000016476677","marks":[{"date":"1727696330","lessonDate":"1727654400","subject":{"id":"1866042225662637249","name":"Science(Естествозн.)","knowledgeArea":"NaturalScience","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2270108101715694564","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260541465790806321","number":0,"periodId":"1"},{"date":"1727696281","lessonDate":"1727654400","subject":{"id":"1863486741596352771","name":"Русский язык","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2270107891262296136","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260541465790806330","number":0,"periodId":"1"},{"date":"1727696204","lessonDate":"1727654400","subject":{"id":"1866041989439435967","name":"Математика","knowledgeArea":"Mathematics","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2270107560549812734","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260464667480587663","number":0,"periodId":"1"},{"date":"1727441837","lessonDate":"1727395200","subject":{"id":"1863486964934652165","name":"Узбекский язык","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2269015062603674434","value":"5","maxValue":null,"mood":"Good"}],"workId":"2265198181002253410","number":0,"periodId":"1"},{"date":"1727433855","lessonDate":"1727395200","subject":{"id":"1866041989439435967","name":"Математика","knowledgeArea":"Mathematics","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2268980780174672555","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260464667480587660","number":0,"periodId":"1"},{"date":"1727277372","lessonDate":"1727136000","subject":{"id":"1866041989439435967","name":"Математика","knowledgeArea":"Mathematics","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2268308690807292533","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260464667480587658","number":0,"periodId":"1"},{"date":"1727243738","lessonDate":"1727222400","subject":{"id":"1863511789845623059","name":"Английский язык","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2268164233877290124","value":"5","maxValue":null,"mood":"Good"}],"workId":"2261506222819682892","number":0,"periodId":"1"},{"date":"1727198870","lessonDate":"1727136000","subject":{"id":"1863508383936557328","name":"Физкультура","knowledgeArea":"PhysicalCulture","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2267971527284677277","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260316040137299166","number":0,"periodId":"1"},{"date":"1727195470","lessonDate":"1727136000","subject":{"id":"1866041873475318974","name":"Читательская грамота","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2267956924395832916","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260541465790806268","number":0,"periodId":"1"},{"date":"1727103796","lessonDate":"1727049600","subject":{"id":"1863500442542027019","name":"Воспитание","knowledgeArea":"SocialStudies","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2267563187563951797","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260541465790806353","number":0,"periodId":"1"},{"date":"1727103705","lessonDate":"1727049600","subject":{"id":"1863486741596352771","name":"Русский язык","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2267562796721926069","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260541465790806338","number":0,"periodId":"1"},{"date":"1727096800","lessonDate":"1727049600","subject":{"id":"1863511789845623059","name":"Английский язык","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2267533139972772859","value":"5","maxValue":null,"mood":"Good"}],"workId":"2261506222819682885","number":0,"periodId":"1"},{"date":"1726811616","lessonDate":"1726790400","subject":{"id":"1866041873475318974","name":"Читательская грамота","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2266308284019394815","value":"5","maxValue":null,"mood":"Good"}],"workId":"2260541465790806305","number":0,"periodId":"1"},{"date":"1726757553","lessonDate":"1726704000","subject":{"id":"1863504703149584654","name":"Информатика","knowledgeArea":"Mathematics","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2266076085202459132","value":"5","maxValue":null,"mood":"Good"}],"workId":"2262228357145995267","number":0,"periodId":"1"},{"date":"1726660964","lessonDate":"1726617600","subject":{"id":"1863511789845623059","name":"Английский язык","knowledgeArea":"Philology","subjectMood":null},"markType":"Mark","markTypeText":"Ответ на уроке","shortMarkTypeText":"ОТВ","isFinal":false,"marks":[{"id":"2265661238606342910","value":"5","maxValue":null,"mood":"Good"}],"workId":"2261506222819682886","number":0,"periodId":"1"}],"marksIndicators":["2270107560549812734","2270108101715694564","2270107891262296136"]}],"currentChild":{"hasSchedule":true,"schoolId":"1000005979869","groupId":"2232176621299702379","personId":"1000016476677","schoolType":"Regular"}},"userContext":{"contextPersons":[{"userId":"1000016375113","personId":"1000016476677","firstName":"Хондамир","middleName":"Анварович","lastName":"Амиркулов","userAge":8,"avatarUrl":null,"school":{"id":"1000005979869","name":"11-maktab","type":"Regular","isOo":true,"isNpoSpo":false,"avatarUrl":null,"pageUrl":"https://schools.emaktab.uz/v2/school?school=1000005979869","regionIds":[16]},"group":{"id":"2232176621299702379","name":"2 \"В\"","pageUrl":"https://schools.emaktab.uz/v2/class?class=2232176621299702379","isCriteriaJournalType":false,"classTeacherUserId":"1000008789694","classTeacherChatUrl":"https://emaktab.uz/chat/user_1000008789694@xmpp.emaktab.uz","classTeacherJid":"user_1000008789694@xmpp.emaktab.uz","groupStaffPageUrl":"https://schools.emaktab.uz/v2/class?class=2232176621299702379&view=members&group=staff","studyYear":2024,"parallel":2},"reportingPeriodGroup":{"id":"2256838164599537853","type":"Quarter","periods":[{"id":"2256838164599538418","number":0,"type":"Quarter","dateStart":"1725408000","dateFinish":"1730505600","studyYear":2024,"isCurrent":true},{"id":"2256838164599538419","number":1,"type":"Quarter","dateStart":"1731283200","dateFinish":"1735257600","studyYear":2024,"isCurrent":false},{"id":"2256838164599538420","number":2,"type":"Quarter","dateStart":"1736553600","dateFinish":"1742428800","studyYear":2024,"isCurrent":false},{"id":"2256838164599538421","number":3,"type":"Quarter","dateStart":"1743120000","dateFinish":"1748044800","studyYear":2024,"isCurrent":false}]},"classTeacherAvatarUrl":null,"classTeacherName":"Мадина Мейлиевна","classTeacherChatId":"user_1000008789694@xmpp.emaktab.uz","haveActiveSubscription":true,"isMsyPopupAvailable":false,"isFemale":false,"groupName":"2 \"В\"","journalLink":"https://emaktab.uz/journal/school/1000005979869/group/2232176621299702379/week/30/9","schoolId":"1000005979869","groupId":"2232176621299702379"}],"currentContextPerson":{"userId":"1000016375113","personId":"1000016476677","firstName":"Хондамир","middleName":"Анварович","lastName":"Амиркулов","userAge":8,"avatarUrl":null,"school":{"id":"1000005979869","name":"11-maktab","type":"Regular","isOo":true,"isNpoSpo":false,"avatarUrl":null,"pageUrl":"https://schools.emaktab.uz/v2/school?school=1000005979869","regionIds":[16]},"group":{"id":"2232176621299702379","name":"2 \"В\"","pageUrl":"https://schools.emaktab.uz/v2/class?class=2232176621299702379","isCriteriaJournalType":false,"classTeacherUserId":"1000008789694","classTeacherChatUrl":"https://emaktab.uz/chat/user_1000008789694@xmpp.emaktab.uz","classTeacherJid":"user_1000008789694@xmpp.emaktab.uz","groupStaffPageUrl":"https://schools.emaktab.uz/v2/class?class=2232176621299702379&view=members&group=staff","studyYear":2024,"parallel":2},"reportingPeriodGroup":{"id":"2256838164599537853","type":"Quarter","periods":[{"id":"2256838164599538418","number":0,"type":"Quarter","dateStart":"1725408000","dateFinish":"1730505600","studyYear":2024,"isCurrent":true},{"id":"2256838164599538419","number":1,"type":"Quarter","dateStart":"1731283200","dateFinish":"1735257600","studyYear":2024,"isCurrent":false},{"id":"2256838164599538420","number":2,"type":"Quarter","dateStart":"1736553600","dateFinish":"1742428800","studyYear":2024,"isCurrent":false},{"id":"2256838164599538421","number":3,"type":"Quarter","dateStart":"1743120000","dateFinish":"1748044800","studyYear":2024,"isCurrent":false}]},"classTeacherAvatarUrl":null,"classTeacherName":"Мадина Мейлиевна","classTeacherChatId":"user_1000008789694@xmpp.emaktab.uz","haveActiveSubscription":true,"isMsyPopupAvailable":false,"isFemale":false,"groupName":"2 \"В\"","journalLink":"https://emaktab.uz/journal/school/1000005979869/group/2232176621299702379/week/30/9","schoolId":"1000005979869","groupId":"2232176621299702379"},"userContextInfo":{"sex":"Male","userId":"1000016375113","personId":"1000016476677","firstName":"Хондамир","middleName":"Анварович","lastName":"Амиркулов","name":"Хондамир Амиркулов","avatarUrl":null,"avatarMediumUrl":"https://static.emaktab.uz/images/avatars/user/a.m.jpg","isParent":false,"isStudent":true,"currentCultureCode":"ru-RU"},"groupParentsTopicEventKey":"school_1000005979869_group_2232176621299702379_parents","educationType":"Regular"},"userLinks":{"currentContext":{"personId":"1000016476677","userId":"0","schoolId":"1000005979869","groupId":"2232176621299702379","isParent":false,"feedPrefix":"uz"}},"banners":{"right300X600":"&lt;div class=&quot;10f87119ccf94c538c6d578c77e218f5 asyncRight300X600Banner&quot;&gt;&lt;div style=&quot;display:none;&quot;&gt;&amp;lt;!--В head сайта один раз подключите библиотеку--&amp;gt;\n&amp;lt;script src=&amp;quot;https://yastatic.net/pcode/adfox/loader.js&amp;quot; crossorigin=&amp;quot;anonymous&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\n\n&amp;lt;!--AdFox START--&amp;gt;\n&amp;lt;!--Dnevnik.ru--&amp;gt;\n&amp;lt;!--Площадка: Kundalik.com / * / *--&amp;gt;\n&amp;lt;!--Тип баннера: 300*600--&amp;gt;\n&amp;lt;!--Расположение: &amp;lt;верх страницы&amp;gt;--&amp;gt;\n&amp;lt;div id=&amp;quot;adfox_161046677763231480&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;\n&amp;lt;script&amp;gt;\n    window.Ya.adfoxCode.create({\n        ownerId: 222314,\n        containerId: &amp;#39;adfox_161046677763231480&amp;#39;,\n        params: {\n            pp: &amp;#39;g&amp;#39;,\n            ps: &amp;#39;elzz&amp;#39;,\n            p2: &amp;#39;fsok&amp;#39;,\n             puid1: &amp;#39;8&amp;#39;,\n    puid2: &amp;#39;M&amp;#39;,\n    puid3: &amp;#39;STUDENT&amp;#39;,\n    puid4: &amp;#39;119&amp;#39;,\n    puid5: &amp;#39;N&amp;#39;,\n    puid6: &amp;#39;N&amp;#39;,\n    puid7: &amp;#39;70:62&amp;#39;,\n    puid8: &amp;#39;N&amp;#39;,\n    puid9: &amp;#39;ComprehensiveSchool&amp;#39;,\n    puid10: &amp;#39;N&amp;#39;,\n    puid11: &amp;#39;A&amp;#39;,\n    puid12: &amp;#39;N&amp;#39;,\n    puid13: &amp;#39;N&amp;#39;,\n    puid14: &amp;#39;N&amp;#39;,\n    puid15: &amp;#39;N&amp;#39;,\n    puid16: &amp;#39;ads_lottery_3_4_koupons:ads_yandex_noProAccess:ads_advices_for_teachers_cg&amp;#160;&amp;#39;,\n    puid17: &amp;#39;&amp;#39;,\n    puid18: &amp;#39;&amp;#39;,\n    puid19: &amp;#39;73G&amp;#39;,\n    puid20: &amp;#39;2K&amp;#39;,\n    puid21: &amp;#39;N&amp;#39;,\n    puid22: &amp;#39;ru-RU&amp;#39;,\n    puid23: &amp;#39;1000016375113&amp;#39;,\n    puid24: &amp;#39;N&amp;#39;,\n    puid25: &amp;#39;N&amp;#39;\n        }\n    });\n&amp;lt;/script&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;$(document).ready(function () {let container=$(&quot;.10f87119ccf94c538c6d578c77e218f5&quot;);if(container.css(&quot;display&quot;)!==&quot;none&quot;){container.html($(&quot;.10f87119ccf94c538c6d578c77e218f5 &gt; div&quot;).text());} });&lt;/script&gt;","mobile":"","partnersRight":"","vas":""},"analytics":{"personId":"1000016476677","userId":"1000016375113","schoolId":"1000005979869","groupId":"2232176621299702379","isCriteriaJournalType":false,"baseUrl":"https://app.ozlashtah.uz/iframe"},"analyticsEnabled":true,"urls":{"adUrl":"https://emaktab.uz/ad","feedbackUrl":"","paymentPageUrl":"https://emaktab.uz/billing/paidAccess/paymentPage","favoritesUrl":"https://emaktab.uz/favorites","communitiesUrl":"https://emaktab.uz/communities","marksUrl":"https://emaktab.uz/marks?school=1000005979869&tab=period","moiVyzUrl":"https://moivyz.emaktab.uz","smartUrl":"https://smarty.emaktab.uz"},"chatEnabled":true,"links":{"isUsefulLinksComponentVisible":false,"mobileUrlsEnabled":false,"mobileGooglePlayUrl":null,"mobileAppStoreUrl":null,"analyticsUrl":null},"environmentPrefix":"Uz","experiments":{"userFeedMarksFinger":false,"postOnelove":false,"postReactions":false,"postReactionsClick":false,"postOnelike":false,"publicAutoSubscribe":false,"postSurvey":false,"share":false,"hideAds":false,"vuzSelection":false,"moiVyz":false},"partnersRecommendationExperiments":[],"outsidePushBanner":null};
+    window.__TALK__INITIAL__STATE__ = {"user":{"avatarLarge":null,"irrelevant":false,"created":false,"sex":"Male","isSystem":false,"schoolName":null,"classTeacher":null,"chatType":"NotSet","schoolId":"0","isArchiveContact":false,"affiliations":null,"isPooSchool":false,"isOdoSchool":false,"isGptChat":false,"jid":"user_1000016375113@xmpp.emaktab.uz","type":"Personal","name":"Амиркулов Хондамир","shortName":"Амиркулов Х.","avatar":null,"avatarBackground":null,"unknown":false,"roles":["student"],"schoolIds":["1000005979869"],"groups":{},"teacherGroups":{},"classTeacherGroups":[],"subjects":null,"profileUrl":"https://emaktab.uz/v2/user/user?user=1000016375113","isDnevnikExpert":false},"urls":{"messengerUrl":"https://emaktab.uz/chat?chatsource=tomsgwidget","faviconUrl":"https://static.emaktab.uz/img/icons/favicon_Uz.ico","messengerFaviconUrl":"https://static.emaktab.uz/img/icons/messenger_favicon.ico","returnUrl":"https://emaktab.uz","logoUrl":"https://static.emaktab.uz/images/logo/Uz/big_dnevnik.ru.png","termsUrl":"https://emaktab.uz/agreements/terms","host":"xmpp.emaktab.uz","multiUserChatHost":"muclight.xmpp.emaktab.uz","feedbackUrl":"https://ru.surveymonkey.com/r/QW6GFPY?id=1000016375113","asyncTaskApiUrl":"https://emaktab.uz","customChatsAvatarsUrl":"https://static.emaktab.uz/images/avatars/abstract","messengerArchive":null,"pollsApiUrl":"https://emaktab.uz/api/polls","pollsUrl":"https://emaktab.uz/polls","chatUrl":"https://emaktab.uz/chat","apiUrl":"https://emaktab.uz/chat/api","mongooseBoshHost":"https://xmpp.emaktab.uz/http-bind","mongooseWSHost":"wss://xmpp.emaktab.uz/ws-xmpp","useBosh":false},"environmentPrefix":"Uz","metrika":{"userId":"1000016375113","role":"student","source":null,"page":"userfeed"},"attachmentHosts":["","attachments.emaktab.uz"],"inactiveTabConnectionTimeoutSeconds":600,"inboxPollingIntervalSeconds":30,"keepAliveInterval":300,"credentialsPollInterval":300,"userExperiments":{"survey":false,"onlineStatus":false,"hideAds":false,"messengerAdaptiveJournal":false,"schoolsInCustomChatsExperiment":[]},"unreadCount":0,"unreadRoles":[],"rosterVersioningEnabled":true,"rosterCacheTTL":432000,"messageStatusesEnabled":true,"showAppLinks":false,"zeroHeight":false,"schoolsInfo":[{"id":"1000005979869","name":"11-maktab","isOdoSchool":false,"isPooSchool":false}]};
+    
+    window.__TALK__STUB__INITIAL__STATE__ = "https://emaktab.uz/chat"
+    window.__MEDIA_WIDGET__INITIAL__STATE__ = {"apiUrl":"https://attachments.emaktab.uz/api","maxUploadFileSize":"10485760","maxUploadFileSizeMessage":"(<a href=\"https://help.emaktab.uz/hc/ru/articles/360013145039\" target=\"_blank\">до 10 Мб</a>)","gridPreviewExperiment":false};
+    window.__PUBLIC__CLUBS__INITIAL__STATE__ = {"clubId":null,"apiUrl":"https://emaktab.uz/api/communities","environmentPrefix":"Uz","defaultBackgroundImageUrl":"https://static.emaktab.uz/images/publicClubs/default_background.png","metrika":{"page":"userfeed"}}
+    window.apiUrls = {
+        ...window.apiUrls,
+        feed: "https://emaktab.uz/api/userfeed/posts",
+        posts: "https://emaktab.uz/api/posts",
+        userLink: "https://emaktab.uz/api/userfeed",
+        analytics: "https://app.ozlashtah.uz/iframe",
+        publicclub: "https://emaktab.uz/api/communities",
+        userKeyValueStorage: "https://emaktab.uz/api/storage",
+        pollsApiUrl: "https://emaktab.uz/api/polls",
+        ratings: "https://emaktab.uz/api/v2/webRatings",
+        vuz: "https://emaktab.uz/api/v2/vuz",
+    }
+    window.__COMPLAINT__INITIAL__STATE__ = {"apiUrl":"https://emaktab.uz/api"};
+
+        function fitToParent(element) {
+            var parent = element.parentElement;
+            parent.style.visibility = 'visible';
+            if (window.matchMedia('(max-width: 620px)').matches) {
+                var scale = parent.clientWidth / element.clientWidth;
+                var parentHeight = element.clientHeight * scale;
+                element.style.transformOrigin = "0 0";
+                element.style.transform = `scale(${ scale})`;
+                parent.style.height = `${ parentHeight} px`;
+            } else {
+                element.style.transform = 'none';
+                parent.style.height = `${ element.clientHeight} px`;
+            }
+        }
+
+        function resizeHeader() {
+            requestAnimationFrame(function() {
+                fitToParent(document.getElementsByClassName('page-header')[0]);
+            });
+        }
+
+        window.addEventListener("DOMContentLoaded", resizeHeader);
+        window.addEventListener("resize", resizeHeader);
+</script>
+<script src="https://static.emaktab.uz/client/user_start_page.js?v=3aaa89f5" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://static.emaktab.uz/client/survey_form.css?v=e786ac74" type="text/css" />
+    <script src="https://static.emaktab.uz/client/survey_form.js?v=09acaf8c" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+    <div class="page-footer page-footer_auth" id="">
+            <div class="page-footer__banner">
+                <div class="2e91a6d3b4114d1099e18637ea7d3065 asyncBottom728x90Banner"><div style="display:none;">&lt;!--AdFox START--&gt;
+&lt;!--Dnevnik.ru--&gt;
+&lt;!--Площадка: Kundalik.com / main / 728x90--&gt;
+&lt;!--Категория: &lt;не задана&gt;--&gt;
+&lt;!--Тип баннера: 728х90--&gt;
+&lt;div id=&quot;adfox_166936212187487327&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    window.yaContextCb.push(()=&gt;{
+        Ya.adfoxCode.create({
+            ownerId: 222314,
+            containerId: &#39;adfox_166936212187487327&#39;,
+            params: {
+                p1: &#39;cwlbd&#39;,
+                p2: &#39;ewtf&#39;,
+                puid1: &#39;8&#39;, puid2: &#39;M&#39;, puid3: &#39;STUDENT&#39;, puid4: &#39;119&#39;, puid5: &#39;N&#39;, puid6: &#39;N&#39;, puid7: &#39;70:62&#39;, puid8: &#39;N&#39;, puid9: &#39;ComprehensiveSchool&#39;, puid10: &#39;N&#39;, puid11: &#39;A&#39;, puid12: &#39;N&#39;, puid13: &#39;N&#39;, puid14: &#39;N&#39;, puid15: &#39;N&#39;, puid16: &#39;ads_lottery_3_4_koupons:ads_yandex_noProAccess:ads_advices_for_teachers_cg&#160;&#39;, puid17: &#39;69G&#39;, puid19: &#39;73G&#39;, puid20: &#39;2K&#39;, puid21: &#39;N&#39;, puid22: &#39;ru-RU&#39;, puid23: &#39;1000016375113&#39;, puid24: &#39;N&#39;, puid25: &#39;N&#39;
+            }
+        })
+    })
+&lt;/script&gt;</div></div><script>$(document).ready(function () {let container=$(".2e91a6d3b4114d1099e18637ea7d3065");if(container.css("display")!=="none"){container.html($(".2e91a6d3b4114d1099e18637ea7d3065 > div").text());} });</script>
+                
+            </div>
+        <div class="page-footer__content">
+            <div class="page-footer__menu-layout ">
+                    <ul class="page-footer__menu">
+                        <li class="page-footer__menu-item">
+                            <a href="https://emaktab.uz/about" title="&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435; &#x43E; eMaktab" class="page-footer__menu-link">&#x41E; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x435;</a>
+                        </li>
+                        <li class="page-footer__menu-item">
+                            <a href="https://emaktab.uz/news" title="&#x41F;&#x440;&#x435;&#x441;&#x441;-&#x446;&#x435;&#x43D;&#x442;&#x440;" class="page-footer__menu-link">&#x41D;&#x43E;&#x432;&#x43E;&#x441;&#x442;&#x438;</a>
+                        </li>
+                        <li class="page-footer__menu-item">
+                            <a href="https://help.emaktab.uz/hc/ru/" target="_blank" title="&#x421;&#x43B;&#x443;&#x436;&#x431;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438;" class="page-footer__menu-link page-footer__menu-link_support">&#x421;&#x43B;&#x443;&#x436;&#x431;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438;</a>
+                        </li>
+                        <li class="page-footer__menu-item">
+                            <a href="https://emaktab.uz/contacts" title="&#x421;&#x43B;&#x443;&#x436;&#x431;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438;" class="page-footer__menu-link">&#x41A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x44B;</a>
+                        </li>
+                    </ul>
+                        <ul class="page-footer__social">
+                                <li class="page-footer__social-item">
+                                    <a href="https://www.facebook.com/emaktab.uz" title="eMaktab &#x432; Facebook" class="page-footer__social-link page-footer__social-link_facebook" target="_blank"></a>
+                                </li>
+                                <li class="page-footer__social-item">
+                                    <a href="https://www.instagram.com/emaktab.uz/" title="eMaktab &#x432; Instagram" class="page-footer__social-link page-footer__social-link_instagram" target="_blank"></a>
+                                </li>
+                                <li class="page-footer__social-item">
+                                    <a href="https://t.me/emaktab_uz" title="eMaktab &#x432; Telegram" class="page-footer__social-link page-footer__social-link_telegram" target="_blank"></a>
+                                </li>
+                                <li class="page-footer__social-item">
+                                    <a href="https://www.youtube.com/@emaktabuzb" title="eMaktab &#x43D;&#x430; YouTube" class="page-footer__social-link page-footer__social-link_youtube" target="_blank"></a>
+                                </li>
+                        </ul>
+                <div class="page-footer__statistics">
+                </div>
+
+            </div>
+
+                <div class="page-footer__mobile-app-links">
+                    <div class="page-footer__mobile-app-links_header">
+                        &#x41C;&#x43E;&#x431;&#x438;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://apps.apple.com/ru/app/kundalik-family/id1526435440" class="page-footer__mobile-app-links__badge page-footer__mobile-app-links__badge-appStore">
+                            <img class="page-footer__mobile-app-links__badge_img" src="https://static.emaktab.uz/images/storebadges/appstore/AppStore_ru-RU.svg"/>
+                        </a>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=uz.kundalik.mobile" class="page-footer__mobile-app-links__badge page-footer__mobile-app-links__badge-googlePlay">
+                            <img class="page-footer__mobile-app-links__badge_img" src="https://static.emaktab.uz/images/storebadges/googleplay/GooglePlay_ru-RU.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    require(['storeButtonsMetrikaHelper'],
+                        function () {
+                        });
+                </script>
+
+            <div class="page-footer__copyright-layout">
+                <a href="https://emaktab.uz/terms/" class="page-footer__copyright-layout-agreement">&#x41F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x43A;&#x43E;&#x435; &#x441;&#x43E;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435;</a>
+                <div class="page-footer__copyright-layout-details">
+                    <p class="page-footer__copyright-layout__terms"></p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            require(['blocks/footerCopyright/footerCopyright'],
+                function () {
+                });
+        </script>
+    </div>
+<div class="clear"></div>    <!-- tns-counter.ru --><script>
+            var img = new Image();
+            img.src = '//www.tns-counter.ru/V13a***R&gt;' + document.referrer.replace(/\*/g, '%2a') + '*dnevnik_ru/ru/CP1251/tmsec=dnevnik_total/';
+        </script><noscript><img src="//www.tns-counter.ru/V13a****dnevnik_ru/ru/CP1251/tmsec=dnevnik_total/" width="1" height="1" alt="" /></noscript><!--/ tns-counter.ru -->
+    
+<script type="text/javascript">
+    require(['yandexMetrika/yandexMetrikaCounter']);
+    require(['analytics/commonYaMetrika']);
+</script>
+<noscript>
+    <div>
+            <img src="//mc.yandex.ru/watch/52725535" style="position: absolute; left: -9999px;" alt="" />
+    </div>
+</noscript>
+    
+
+</body>
+</html>
